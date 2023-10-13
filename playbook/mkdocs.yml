@@ -1,0 +1,69 @@
+site_name: Health RAP Playbook - Alpha
+repo_url: to_include
+repo_name: Health RAP Playbook
+plugins:
+  - search
+nav:
+  - Home:
+    - Home: index.md
+    - How do I do RAP in health: How_do_I_do_rap_in_health.md
+    - Exceptions to open sharing of RAP: Exceptions_to_open_sharing_of_RAP.md
+    - Who else is doing it: Who_else_is_doing_it.md
+    - Levels of RAP maturity: Levels_of_RAP.md
+theme:
+  name: material
+  custom_dir: overrides
+  palette:
+    scheme: default
+    primary: indigo
+  font:
+    text: Arial
+  logo: images/logo/nhs-blue-on-white.jpg
+  favicon: images/favicon/favicon.ico
+  features:
+    - search.share
+    - content.code.annotate
+    - content.tabs.link
+    - navigation.tabs
+    - navigation.indexes
+  icon:
+    admonition:
+      <type>: material/alert
+extra_css:
+  - stylesheets/extra.css
+markdown_extensions:
+  - def_list
+  - pymdownx.tasklist:
+      # clickable_checkbox: true
+      custom_checkbox: true
+  - tables
+  - attr_list
+  - def_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.arithmatex:
+      generic: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+extra:
+    generator: false
+copyright: Copyright &copy; 2023 Crown Copyright (NHS England)
+watch:
+  - overrides
