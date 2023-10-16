@@ -1,5 +1,9 @@
 # Health Reproducible Analytical Pipelines (RAP) Playbook
 
+> # *ALPHA Please note that this website is currently in alpha testing. As such, you may encounter bugs, errors, or inaccuracies during your visit. Your [feedback](mailto:datascience@nhs.net) is invaluable in helping us improve this site.*
+>
+>
+
 This website documents processes, tools and technologies used in health when creating Reproducible Analytical Pipelines (RAP)
 
 > It is intended to complement, not replace, existing UK Government and NHS guidance:

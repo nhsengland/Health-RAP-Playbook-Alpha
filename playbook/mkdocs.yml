@@ -1,6 +1,6 @@
 site_name: Health RAP Playbook - Alpha
-repo_url: to_include
-repo_name: Health RAP Playbook
+#repo_url: to_include
+#repo_name: Health RAP Playbook
 plugins:
   - search
 nav:
