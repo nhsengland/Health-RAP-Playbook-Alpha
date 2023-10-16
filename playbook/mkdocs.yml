@@ -1,6 +1,6 @@
 site_name: Health RAP Playbook - Alpha
-#repo_url: to_include
-#repo_name: Health RAP Playbook
+repo_url: https://github.com/nhsengland/Health-RAP-Playbook-Alpha
+repo_name: Health RAP Playbook Alpha
 plugins:
   - search
 nav:
