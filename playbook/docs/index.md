@@ -8,8 +8,8 @@ This website documents processes, tools and technologies used in health when cre
 
 > It is intended to complement, not replace, existing UK Government and NHS guidance:
 >
-> - **The cross-govt big picture on RAP**: [Government Analysis Function RAP Strategy](https://analysisfunction.civilservice.gov.uk/policy-store/reproducible-analytical-pipelines-strategy/)  
-> - **The cross-govt RAP community and guidance**: [Government Analysis Function RAP Guidance](https://analysisfunction.civilservice.gov.uk/support/reproducible-analytical-pipelines/)  
+> - **The cross-government big picture on RAP**: [Government Analysis Function RAP Strategy](https://analysisfunction.civilservice.gov.uk/policy-store/reproducible-analytical-pipelines-strategy/)  
+> - **The cross-government RAP community and guidance**: [Government Analysis Function RAP Guidance](https://analysisfunction.civilservice.gov.uk/support/reproducible-analytical-pipelines/)  
 > - **Guidance on how to set up a RAP squad and train others in RAP**: [NHS England RAP Community of Practice](https://nhsdigital.github.io/rap-community-of-practice/)
 > - **Other RAP-related guidance**:
 >    - [Quality Assurance of Code for Analysis and Research (Duck book)](https://best-practice-and-impact.github.io/qa-of-code-guidance/intro.html)
@@ -23,7 +23,7 @@ This website documents processes, tools and technologies used in health when cre
 
 * Analysts and researchers using health data who want to adopt RAP  
 * Analyst leaders in health who want to support or encourage RAP adoption  
-* IT, Cyber, and Information Governance professionals who want to ensure RAP is applied safely to health data  
+* IT, cyber, and Information Governance professionals who want to ensure RAP is applied safely to health data  
 * Members of the public who want to understand how their data is processed to provide insights into health and care
 
 # How to use this playbook
@@ -41,7 +41,7 @@ In our initial release we have focussed on guidance for those who have organisat
 Guidance for those less familiar with RAP. You will probably need to convince someone in your organisation (or yourself) that it’s a good thing to do:  
 
 *   **Why is it important to health** – this covers the wider policy ask, and points to the drivers for this work.  
-*   **What is RAP in health** – this covers, why we need RAP in health analytics, key considerations, and misconceptions.  
+*   **What is RAP in health** – this covers why we need RAP in health analytics, key considerations, and misconceptions.  
 
 
 Guidance if you are one of the thousands of analysts working across hundreds of organisations in Trusts, PCNs, and ICBs:  
