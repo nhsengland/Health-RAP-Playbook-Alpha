@@ -1,0 +1,1140 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="../Exceptions_to_open_sharing_of_RAP/">
+      
+      <link rel="icon" href="../images/favicon/favicon.ico">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.1.1">
+    
+    
+      
+        <title>How do I do RAP in health - Health RAP Playbook - Alpha</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.402914a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.a0c5b2b5.min.css">
+      
+      
+  
+  
+    
+    
+  
+  
+  <style>:root{--md-admonition-icon--<type>:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14h-2V9h2m0 9h-2v-2h2M1 21h22L12 2 1 21Z"/></svg>');}</style>
+
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arial:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Arial";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#how-do-i-do-rap-in-health" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      <!--
+  Copyright (c) 2016-2023 Martin Donath <martin.donath@squidfunk.com>
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!-- Determine class according to configuration -->
+
+
+
+<!-- Header -->
+<header class="md-header" data-md-component="header">
+  <nav
+    class="md-header__inner md-grid"
+    aria-label=""
+  >
+
+<!-- Button to open drawer -->
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+
+    <!-- Link to home -->
+    <a
+      href=".."
+      title="Health RAP Playbook - Alpha"
+      class="md-header__button md-logo-nhs"
+      aria-label="Health RAP Playbook - Alpha"
+      data-md-component="logo"
+    >
+      
+  <img src="../images/logo/nhs-blue-on-white.jpg" alt="logo">
+
+    </a>
+
+    <!-- Header title -->
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Health RAP Playbook - Alpha
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              How do I do RAP in health
+            
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Color palette -->
+    
+
+    <!-- Site language selector -->
+    
+
+    <!-- Button to open search modal -->
+    
+
+    <!-- Repository information -->
+    
+      <div class="md-header__source">
+        <a href="https://github.com/nhsengland/Health-RAP-Playbook-Alpha" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Health RAP Playbook Alpha
+  </div>
+</a>
+      </div>
+    
+  </nav>
+
+  <!-- Navigation tabs (sticky) -->
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link md-tabs__link--active">
+        Home
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Health RAP Playbook - Alpha" class="md-nav__button md-logo" aria-label="Health RAP Playbook - Alpha" data-md-component="logo">
+      
+  <img src="../images/logo/nhs-blue-on-white.jpg" alt="logo">
+
+    </a>
+    Health RAP Playbook - Alpha
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/nhsengland/Health-RAP-Playbook-Alpha" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Health RAP Playbook Alpha
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" checked>
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="..">Home</a>
+          
+            <label for="__nav_1">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="true">
+        <label class="md-nav__title" for="__nav_1">
+          <span class="md-nav__icon md-icon"></span>
+          Home
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          How do I do RAP in health
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        How do I do RAP in health
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#executive-summary" class="md-nav__link">
+    Executive Summary
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#are-you-working-with-open-data-or-secure-health-data" class="md-nav__link">
+    Are You Working with Open Data or Secure Health Data?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#some-points-to-consider-when-getting-started" class="md-nav__link">
+    Some points to consider when getting started
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-right-tools" class="md-nav__link">
+    The Right Tools
+  </a>
+  
+    <nav class="md-nav" aria-label="The Right Tools">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#secure-data-environments-or-trusted-research-environments" class="md-nav__link">
+    Secure Data Environments (or Trusted Research Environments)
+  </a>
+  
+    <nav class="md-nav" aria-label="Secure Data Environments (or Trusted Research Environments)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#transparency-vs-security" class="md-nav__link">
+    Transparency vs Security
+  </a>
+  
+    <nav class="md-nav" aria-label="Transparency vs Security">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#air-gaps-working-in-an-sde" class="md-nav__link">
+    Air Gaps / Working in an SDE
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#repo-checks-secret-scanning" class="md-nav__link">
+    Repo Checks / Secret Scanning
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#platforms-architecture" class="md-nav__link">
+    Platforms Architecture
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-right-capability" class="md-nav__link">
+    The Right Capability
+  </a>
+  
+    <nav class="md-nav" aria-label="The Right Capability">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#understanding-what-is-required" class="md-nav__link">
+    Understanding What is Required
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#links-to-learning-resources" class="md-nav__link">
+    Links to Learning Resources
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-right-culture" class="md-nav__link">
+    The Right Culture
+  </a>
+  
+    <nav class="md-nav" aria-label="The Right Culture">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#create-and-support-the-time-needed-for-developing-skills" class="md-nav__link">
+    Create and Support the Time Needed for Developing Skills
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#actively-support-and-build-a-community" class="md-nav__link">
+    Actively Support and Build a Community
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#be-open-and-transparent-by-default" class="md-nav__link">
+    Be Open and Transparent by Default
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-are-the-risks-of-not-doing-rap" class="md-nav__link">
+    What are the risks of NOT doing RAP
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Exceptions_to_open_sharing_of_RAP/" class="md-nav__link">
+        Exceptions to open sharing of RAP
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Who_else_is_doing_it/" class="md-nav__link">
+        Who else is doing it
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Levels_of_RAP/" class="md-nav__link">
+        Levels of RAP maturity
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#executive-summary" class="md-nav__link">
+    Executive Summary
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#are-you-working-with-open-data-or-secure-health-data" class="md-nav__link">
+    Are You Working with Open Data or Secure Health Data?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#some-points-to-consider-when-getting-started" class="md-nav__link">
+    Some points to consider when getting started
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-right-tools" class="md-nav__link">
+    The Right Tools
+  </a>
+  
+    <nav class="md-nav" aria-label="The Right Tools">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#secure-data-environments-or-trusted-research-environments" class="md-nav__link">
+    Secure Data Environments (or Trusted Research Environments)
+  </a>
+  
+    <nav class="md-nav" aria-label="Secure Data Environments (or Trusted Research Environments)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#transparency-vs-security" class="md-nav__link">
+    Transparency vs Security
+  </a>
+  
+    <nav class="md-nav" aria-label="Transparency vs Security">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#air-gaps-working-in-an-sde" class="md-nav__link">
+    Air Gaps / Working in an SDE
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#repo-checks-secret-scanning" class="md-nav__link">
+    Repo Checks / Secret Scanning
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#platforms-architecture" class="md-nav__link">
+    Platforms Architecture
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-right-capability" class="md-nav__link">
+    The Right Capability
+  </a>
+  
+    <nav class="md-nav" aria-label="The Right Capability">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#understanding-what-is-required" class="md-nav__link">
+    Understanding What is Required
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#links-to-learning-resources" class="md-nav__link">
+    Links to Learning Resources
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-right-culture" class="md-nav__link">
+    The Right Culture
+  </a>
+  
+    <nav class="md-nav" aria-label="The Right Culture">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#create-and-support-the-time-needed-for-developing-skills" class="md-nav__link">
+    Create and Support the Time Needed for Developing Skills
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#actively-support-and-build-a-community" class="md-nav__link">
+    Actively Support and Build a Community
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#be-open-and-transparent-by-default" class="md-nav__link">
+    Be Open and Transparent by Default
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-are-the-risks-of-not-doing-rap" class="md-nav__link">
+    What are the risks of NOT doing RAP
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="how-do-i-do-rap-in-health">How do I do RAP in health?</h1>
+<blockquote>
+<p><strong>Note</strong></p>
+<p>For more information on:</p>
+<ul>
+<li>Who else is doing RAP and why you should think about doing it, see <a href="../Who_else_is_doing_it/" title="Useful Resources from Other Groups Doing RAP">"Who else is doing RAP"</a></li>
+<li>When you should not do RAP, see <a href="../Exceptions_to_open_sharing_of_RAP/" title="Permitted Exceptions to Open Sharing of Reproducible Analytical Pipelines">"Permitted Exceptions to Open Sharing of Reproducible Analytical Pipelines"</a></li>
+</ul>
+</blockquote>
+<h2 id="executive-summary">Executive Summary</h2>
+<ul>
+<li><strong>Work out what you want to achieve from RAP</strong> - Pick your strategy and think about the benefits in the context of your organisation.</li>
+<li><strong>Start small and build out</strong> - If your pipelines aren't very mature, the first steps might just be to get everything to <a href="../Levels_of_RAP/"><strong>baseline RAP</strong></a>, and focus on training your staff in the basics. You could also take some exemplar projects all the way to gold, to find out what's possible.</li>
+<li><strong>Engage early with key stakeholders and discuss RAP frequently</strong> - Information Governance (IG) and cyber security teams may see risks in open-source tools, publishing code and sharing code between teams. Make sure you have mitigations in place. Platforms and IT need to be brought in to address any shortfalls in technology. Engage early with your data owners, platform owners, IG teams, and internal IT as these can all release blockers to the successful implementation of RAP in health.</li>
+<li><strong>Set up a RAP champion squad</strong> - Even just two people will be crucial for helping others, figuring out workarounds, and promoting the benefits of RAP.</li>
+<li><strong>Audit your tooling and existing pipelines</strong> - Recognise how mature the tools and pipelines are and identify what is missing, who needs help and what is blocking progress.</li>
+<li><strong>When working with secure health data,such as patient level records, you will have to operate in a more secure environment</strong> - Extra stages will need to be added to ensure both you and the secure data are protected from accidentally releasing things that should not be released.</li>
+</ul>
+<p>This guide will be broken into sections following the <a href="https://analysisfunction.civilservice.gov.uk/policy-store/reproducible-analytical-pipelines-strategy/" title="Reproducible Analytical Pipelines (RAP) strategy">Government Analysis Function RAP Strategy</a>, discussing how to ensure we have:</p>
+<ul>
+<li><a href="#the-right-tools">The right tools</a></li>
+<li><a href="#the-right-capability">The right capability</a></li>
+<li><a href="#the-right-culture">The right culture</a></li>
+</ul>
+<h2 id="are-you-working-with-open-data-or-secure-health-data">Are You Working with Open Data or Secure Health Data?</h2>
+<blockquote>
+<p><strong>Note</strong></p>
+<p>This guide <strong>will mostly be concerned with issues arising due to working on sensitive health data.</strong> Open data people can skip past the Secure Environments section and the more generic RAP guides will generally be usable.</p>
+</blockquote>
+<p>There are certain risks and conflicts when we combine the transparency goal of RAP, with the need to handle patient and public data in line with our obligations as health data analysts, which can be health (and NHS) data specific. For example, data versioning is a key desire of RAP, so that results can be reproduced at key points in time. However, with the <a href="https://digital.nhs.uk/services/national-data-opt-out" title="The national data opt-out is a service that allows patients to opt out of their confidential patient information being used for research and planning">National Data Opt-out</a>, or even changes in legislation, patients may be removed from historical records.  We need to both be able to mechanically remove patients from datasets, and accept that it could alter the results leading to a level of irreproducibility.</p>
+<p>We <strong>MUST</strong> avoid patient and public data leaking out via transparency routes - such as accidentally committing data files to code version control repositories, or leaving record level (and unsuppressed) data visible in any outputs or from being accidentally put into repositories.</p>
+<p>Therefore, the first question about RAP and Health data is - is your data and work open, or does it need to be secure?</p>
+<p><strong>If it's open, many of the challenges described elsewhere in this play book may not apply to you</strong> and the more generic RAP guidance available (<a href="https://nhsdigital.github.io/rap-community-of-practice/useful_links/">much of which can be seen here</a>) will generally be usable.</p>
+<p><strong>If the data is secure, such as patient level records, then you will have to operate in a more secure environment</strong>, and extra stages need to be added to the RAP, to ensure both you and any secure health data are protected from accidentally releasing things that should not be released.</p>
+<h2 id="some-points-to-consider-when-getting-started">Some points to consider when getting started</h2>
+<blockquote>
+<p><strong>In an ideal system</strong></p>
+<ul>
+<li>Senior leadership will embrace <a href="https://transform.england.nhs.uk/key-tools-and-info/digital-playbooks/open-source-digital-playbook/" title="Open source digital playbook: How to use digital ways of working to improve outcomes for patients">open source</a> and champion the <a href="https://analysisfunction.civilservice.gov.uk/support/reproducible-analytical-pipelines/benefits-to-government-from-reproducible-analytical-pipelines/" title="Benefits to Government from Reproducible Analytical Pipelines">benefits</a> RAP can bring to your organisation.</li>
+<li>Platforms and tooling will allow use of open source analytical tools, and give analysts access to version control while maintaining <a href="https://www.hra.nhs.uk/planning-and-improving-research/research-planning/how-were-supporting-data-driven-technology/accessing-health-and-care-data-research-data-driven-technology-step-step-guide-and-glossary/" title="Accessing Health and Care Data For Research On Data-Driven Technology: A Step-By-Step Guide And Glossary">data security</a>.</li>
+<li>Analyst leaders will help analysts deal with blockers, and prioritise and protect efforts to do RAP</li>
+<li><a href="https://analysisfunction.civilservice.gov.uk/support/reproducible-analytical-pipelines/reproducible-analytical-pipeline-rap-champions/#more-information-about-rap-champions" title="More Information About RAP Champions">RAP champions</a> must get the local RAP community going, work across silos and help analysts get unstuck by understanding the local situation.</li>
+<li>Analysts will take advantage of existing <a href="https://nhsdigital.github.io/rap-community-of-practice/" title="RAP Community of Practice: Improve reliability, transparency, and speed of statistics publications.">RAP communities</a> and contribute to them.</li>
+</ul>
+</blockquote>
+<p><strong>Pick a strategy</strong>. This might be to get the basics right on a wide set of analytical pipelines, maximise automation, or provide a strong example of the benefits that can be achieved if you go all the way.</p>
+<p><strong>Set up a <a href="https://analysisfunction.civilservice.gov.uk/support/reproducible-analytical-pipelines/reproducible-analytical-pipeline-rap-champions/#more-information-about-rap-champions" title="More Information About RAP Champions">RAP champion</a> squad</strong>. Change needs people to champion it, to figure out a way forward and to help others. Even if this is only two people they can make a big difference.</p>
+<p><strong>Audit the current situation in your organisation</strong>.  Identify how mature your existing pipelines are and what is possible within the current platforms. Measure these against <a href="https://nhsdigital.github.io/rap-community-of-practice/introduction_to_RAP/levels_of_RAP/" title="The 'Levels of RAP' Maturity Framework">levels of RAP</a>, and the <a href="https://analysisfunction.civilservice.gov.uk/policy-store/reproducible-analytical-pipelines-strategy/#section-13" title="Platforms for Reproducible Analysis">RAP strategy</a>.</p>
+<p>Once you have a strategy you need to <strong>regularly engage with leadership in analytics, Information Governance, IT, and your risk owners</strong> to agree on your strategy. Agree on what can be done and where the risks lie, and mitigate the risks by following best practices and showing how others have done it.  </p>
+<p><strong>Stay resilient as you will hit blockers</strong>. Blockers might be technical, procedural, or conflicting priorities. Refer back to your strategy regularly and use the organisation's leadership to drive change. You are not alone - you can also reach out to the wider RAP community for help.</p>
+<h2 id="the-right-tools">The Right Tools</h2>
+<blockquote>
+<p><strong>In an ideal system...</strong></p>
+<p><strong>Senior leadership will:</strong></p>
+<ul>
+<li>Understand the extent to which their platforms are RAP capable, and promote filling the gap.</li>
+<li>Set an expectation that RAP compliance can compliment meeting Information Governance and  security commitments.  </li>
+</ul>
+<p><strong>Platforms will:</strong></p>
+<ul>
+<li>Provide a space in which staff can meet every level and dimension of RAP - namely being able to access the required data, compute, external code (and packages), to be able share and publish code, and for each step to be automatable.</li>
+<li>Be as easy to use as possible, but also safe, with the appropriate security, controls, and assurance in place.</li>
+<li>Be conscious of existing and emerging standards, such as the <strong><a href="https://www.gov.uk/government/publications/secure-data-environment-policy-guidelines/secure-data-environment-for-nhs-health-and-social-care-data-policy-guidelines#secure-data-environment-guidelines" title="Secure Data Environment Guidelines">NHS Secure Data Environments (SDE) requirements</a></strong>: It is not the job of analysts to lobby for platforms to meet these standards.</li>
+</ul>
+<p><strong>Analysts and Data Engineer leaders (and RAP champions) will:</strong></p>
+<ul>
+<li>Work with platforms, security, and Information Governance teams to develop platforms which are RAP compliant, flexible, and responsive whilst also meeting commitments to data protection and security.</li>
+<li>Ensure analysts and data engineers get access to the right tools, and that they use them.</li>
+</ul>
+<p><strong>Analysts and Data engineers will:</strong></p>
+<ul>
+<li>Use open-source tools where appropriate and publish their code in a safe way <a href="https://www.gov.uk/government/publications/open-source-guidance/when-code-should-be-open-or-closed" title="When code should be open or closed">unless they are one of the few exceptions to this</a>.</li>
+<li>Ensure data is versioned to allow for analyses to be reproduced, where possible, given health data may change such as due to national opt-outs.</li>
+</ul>
+</blockquote>
+<p>The <a href="https://analysisfunction.civilservice.gov.uk/policy-store/reproducible-analytical-pipelines-strategy/#section-7" title="Why Reproducible Analytical Pipelines matter">Cross Government RAP strategy</a> sets out that analysts often do not have the tools they need to do good analysis and to make it repeatable. Many of the issues faced by analysts in the wider sector are also experienced in health, such as:</p>
+<ul>
+<li>not having the right tools.</li>
+<li>the tools they have entrenching manual processes.</li>
+<li>analyst requirements not being a focus of the platform specification.</li>
+</ul>
+<p>This is especially true in the health sector, where due to the very sensitive nature of the data we use, cyber security and Information Governance compliance are used as excuses for creating nearly uncrossable silos, inefficient manual processes, and for not publishing code. Security through obscurity is considered insufficient and bad practice by Government Cyber Security policy (see <a href="https://www.gov.uk/government/publications/open-source-guidance/security-considerations-when-coding-in-the-open" title="Security considerations when coding in the open">security considerations when coding in the open</a>).</p>
+<p>The tools dimension also encompasses the data we use. Often data is not very easy to do RAP on. The data itself is usually not version-controlled, making precisely recreating previous work not always possible. Some data returns change regularly, and use quite loose data collection tools (such as spreadsheets), requiring frequent adjustment of analytical processes. Other datasets hardly ever change, with many issues commonly known, but poorly documented for decades, meaning each set of analysts starts from scratch doing a lot of pre-processing.</p>
+<p>RAP helps solve these issues and makes things more efficient and transparent, but particularly in health, there are a number of hurdles, which require attention before RAP can really take off.</p>
+<blockquote>
+<p><strong>What parts of RAP can be done regardless of technology?</strong></p>
+<p>Many health analysts do not have the perfect tools for RAP, however this should not stop them adopting RAP principles. It is important to remember that something is often better than nothing, and that we need to focus on what the benefits are and how we can achieve them.</p>
+<p>For example, if your organisation does not have any open source tools, or git, getting started with RAP might sound impossible, but at least you could start documenting your existing processes, making flow-charts to describe any pain points, and documenting how long and how much resource they take to run.</p>
+<p>If you have access to any open source language, but cannot move some key part of the process off a closed source tool, work around it. RAPify those parts of the pipeline you can change, and can access.</p>
+<p>It is also wise to start by focussing on the parts causing you the most trouble. Use your open source tool to automate the manual steps, or the tests and checks that are done by eye.</p>
+<p>If it is difficult to share code between teams, or extract code and data from a secure environment, then share it when you can, perhaps at some key checkpoints in the work.</p>
+</blockquote>
+<h3 id="secure-data-environments-or-trusted-research-environments">Secure Data Environments (or Trusted Research Environments)</h3>
+<p>A lot of health data analytics, data engineering, science, and research occurs in secure data environments (SDE), also called trusted research environments (TRE).  The aim of SDEs is to provide a controlled space where analysts can use the data, safe from outside attack, but also that human error on their part won't necessarily cause a data breach.</p>
+<p>There are several guidelines that outline how an SDE should function and what features it should contain:</p>
+<ul>
+<li><a href="https://www.gov.uk/government/publications/secure-data-environment-policy-guidelines/secure-data-environment-for-nhs-health-and-social-care-data-policy-guidelines" title="Secure data environment for NHS health and social care data - policy guidelines">Government policy guidelines on an SDE for NHS Health and Social Care Data</a></li>
+<li><a href="https://www.hdruk.ac.uk/access-to-health-data/trusted-research-environments/" title="Aligning approaches to Trusted Research Environments: A Work Stream Convened by the UK Health Data Research Alliance">Health Data Research UK Trusted Research Environments</a></li>
+<li><a href="https://transform.england.nhs.uk/key-tools-and-info/data-saves-lives/secure-data-environments/" title="A summary of what Secure Data Environments are and why we’re making this change">NHS England Transformation Directorate Rationale Behind Secure Data Environments</a></li>
+</ul>
+<p>The design of SDEs need to be carefully considered. The natural approach of security conscious architects is to lock everything down and make an environment where analysts working for different purposes and with different sets of data cannot share their code (easily), and where extracting code and results from the environment is difficult, sometimes to the extent that analysts refuse to use it. This is not only counter productive, harming the productivity of analysts and their potentially lifesaving work, but it is also in contradiction to one of the aims of the SDEs: to enable open, transparent, and collaborative working on the patient and public data.</p>
+<p>In the following sub-sections we will explore the different aspects of the SDEs which need to be considered in their design.</p>
+<h4 id="transparency-vs-security">Transparency vs Security</h4>
+<p>Given a key part of RAP is transparency and sharing, this can create a conflict. It is crucial we keep patients' and the public's data safe, however as the Government policy guidelines above sets out: <em>"code developed in secure data environments must be published in the open unless there is a specific rationale for not doing so"</em>.</p>
+<p>There is risk whenever we move anything held within an SDE outside of the environment. This includes limiting the movement of:</p>
+<ul>
+<li>any analysis outputs such as aggregated data, graphs, charts, etc.</li>
+<li>dashboards and APIs.</li>
+<li>code, including packages and code repositories.</li>
+<li>other artefacts, such as table metadata, <a href="https://dareuk.org.uk/sprint-exemplar-project-graimatter/" title="GRAIMATTER: Guidelines and Resources for Artificial Intelligence Model Access from Trusted Research Environments">trained machine learning models</a>, etc.</li>
+</ul>
+<p>It is also important to remember that risk cannot be eliminated - only managed and reduced - and the level of risk that is acceptable from different sources is a business question most likely unique to each organisation. There is also risk posed by poorly implemented, or overly tight security. If a platform is so locked down analysts and researchers cannot do their work, then this could ultimately harm patients and the public. Additionally, if it is too burdensome for analysts to share their work, or reuse the work of others, this also poses a risk, such as a risk of duplication of work, lowered productivity, and reputational damage.</p>
+<p>Below we will discuss some approaches to reduce the risk, however, it is crucial that we accept that transparency and sharing are not "nice to have". They are a core objective of RAP, and necessary to avoid duplicated work, inefficiency, and poor practice, whilst also raising public trust.</p>
+<h5 id="air-gaps-working-in-an-sde">Air Gaps / Working in an SDE</h5>
+<p>Air gaps are a nearly impenetrable barrier around the space in which code is run against the patient data within an SDE. It prevents data, files, and other connections (such as to the internet) from passing through, except via agreed, monitored, and controlled routes, such as a "safe output service". This is a crucial part of the security of the SDE, however it does make doing RAP more challenging, principally because it will be difficult to share any code developed within the SDE, either publicly published <a href="https://www.gov.uk/government/publications/secure-data-environment-policy-guidelines/secure-data-environment-for-nhs-health-and-social-care-data-policy-guidelines" title="Secure data environment for NHS health and social care data - policy guidelines">as recommended by NHS SDE policy guidelines</a>, shared with colleagues, or uploaded to a package repositories such as <a href="https://cran.r-project.org" title="The Comprehensive R Archive Network">CRAN</a>, <a href="https://pypi.org" title="The Python Package Index">Pypi</a>, etc.</p>
+<p>The air gap can lead to a need to break down analytical pipelines into stages. This can be due to a reduced user experience or lack of tools within the SDE making it harder to get needed packages or extensions for IDEs and leading to analysts wanting to do work, where possible, outside the SDE. For example, continuing to process aggregated results into final reports outside of the SDE. There are some use cases that simply need access to the internet or other systems, for example loading outputs onto an organisations website or supporting a dashboard.</p>
+<p>Depending on how the SDE is designed, the code version control setup might be located inside the air gap, pass through it, or be outside the SDE with some mechanism to pass code into it. In either case, the core purpose needs to be remembered: it is crucial that code can be backed up, shared and reused.  </p>
+<p>The result of this is that SDE air gaps need to be carefully designed with machine readable routes to get inputs and outputs into, and out of, the SDEs. Examples of this are:</p>
+<ul>
+<li>data APIs with credentials</li>
+<li>code version control</li>
+<li>publishing code to package repositories (both internal "private" ones and public global ones)</li>
+<li>downloading outputs for further analysis</li>
+<li>passing data into the system.</li>
+</ul>
+<h5 id="repo-checks-secret-scanning">Repo Checks / Secret Scanning</h5>
+<p>Due to the sensitive nature of health data, and the novelty of code version control to many of our analysts, within the health industry there is a particular risk of accidental disclosure of patient data via code version control, for example accidentally uploading code with a comment containing some patient data used in testing, to a git repo.  Current approaches taken by SDEs have involved having humans manually checking outputs to ensure they are not disclosive, however this is by definition very manual, not scalable, and simply not feasible for some outputs, such as dashboards and APIs, or very large codebases. Fortunately, there are other options which can be used alongside manual human checks:</p>
+<ul>
+<li>Simply adding <code>.gitignore</code> files to the git code repositories will make it harder for data files such as CSV, parquet, or Excel spreadsheets to be added accidentally to the repository.  Adding <code>.gitignore</code> files can form a standard part of the organisational git repository template (such as the <a href="https://github.com/best-practice-and-impact/govcookiecutter">govcookiecutter</a>).</li>
+<li>Using <a href="https://githooks.com/" title="Git Hooks">Git hooks</a>, such as pre-commit, to run scripts against the code and catch any issues prior the code landing in the repository.</li>
+<li>Using continuous integration and continuous deployment (CI/CD) tools, such as GitHub Actions, to scan the code for any issues prior to merges, releases, or further code promotion</li>
+</ul>
+<p>Git hooks and CI/CD rely on finding the right scripts or tools to run against the code to identify any issues. There are a number of scripts already available, of varying complexity, that can be used.  This includes simply scanning for "secrets", such as access tokens to AWS, to more complex machine learning approaches. Some examples available to analysts are:</p>
+<ul>
+<li><strong><a href="https://github.com/gitleaks/gitleaks" title="Gitleaks: Protect and Discover Secrets Using Gitleaks">Gitleaks</a>:</strong> a tool for detecting and preventing hardcoded secrets like passwords, api keys, and tokens in git repositories.</li>
+<li><strong><a href="https://github.com/awslabs/git-secrets" title="Git Secrets">Git Secrets</a>:</strong> a tool that prevents you from committing secrets and credentials into git repositories.</li>
+<li><strong><a href="https://aws.amazon.com/macie/" title="Amazon Macie: Discover and Protect Your Sensitive Data at Scale">Amazon Macie</a>:</strong> a tool that discovers sensitive data using machine learning and pattern matching, provides visibility into data security risks, and enables automated protection against those risks.</li>
+</ul>
+<h5 id="platforms-architecture">Platforms Architecture</h5>
+<p>Given all the considerations above, platform design needs to be thought through carefully so that it is both safe and secure, but also makes RAP as achievable as possible. It is important to note that SDEs fall into one of two categories:</p>
+<ol>
+<li>SDEs where users work inside the SDE, exposed to the data directly.</li>
+<li>SDEs where users work outside the SDE against dummy data, and submit their code which is approved and then taken inside the SDE and run against the real data, later returning the results (as in the <a href="https://github.com/opensafely" title="OpenSAFELY: A Secure Analytics Platform for NHS Electronic Health Records">OpenSAFELY</a> model).</li>
+</ol>
+<p>The architecture of the two SDE approaches is different in some aspects, but they will need many of the same components to better meet the RAP requirements that have been discussed previously.  Some of the main considerations when designing an SDE are:</p>
+<ol>
+<li>
+<p><strong>Having an on-premises, trusted package repository:</strong> This will allow your organisation to check and assure the packages (such as python packages from <a href="https://pypi.org" title="The Python Package Index">Pypi</a>, <a href="https://docs.conda.io/en/latest/" title="Conda: Package, dependency and environment management for any language">Conda</a>, <a href="https://maven.apache.org" title="Apache Maven: A Software Project Management and Comprehension Tool">Maven</a>, etc.) used within the SDE once, after which they could be consumed freely by the SDE users. Users will need a straightforward method of requesting packages to be added to the repository, such as through editing some config file held in a git repository they can access. They will also need to be able to install packages into their working area, such as into their compute cluster / <a href="https://nhsdigital.github.io/rap-community-of-practice/training_resources/python/virtual-environments/why-use-virtual-environments/">python virtual environment</a>, etc. There also needs to be a way for users to be able to promote their code into a package within the on-prem trusted package repository, both from the shared and unshared areas.</p>
+</li>
+<li>
+<p><strong>Work done needs to be reproducible, and this might include work done outside the environment (such as on another SDE):</strong> We want to encourage the transfer and re-use of code and methods and this will involve the creation of compute clusters, and virtual environments in a reproducible, and automatable manner. For example through using config files in the code repositories (requirements.txt for Python virtual environments, or json files for spark clusters). This might also need analysts to use virtualisation, such as using docker to recreate the operating system setup used in the original work and CI/CD tools need to be available to users, so that they can automate the running of tests.</p>
+</li>
+<li>
+<p><strong>In those SDEs where users are exposed to the data directly, split users into silos based on their intended use of the data:</strong> This will make it difficult to pass anything between these silos, so there needs to be some way for users to share code between the silos. Without this users cannot reuse the code of their peers and will be forced to duplicate work. Code should be checked to ensure it is non-disclosive (such as using Git hooks, etc.) prior to being moved into this shared space and subsequent changes to this shared code can use the functionality of Git to only check the "delta", or any changes to the code, rather than the whole code again.  Exporting code outside the environment from the shared space should be straightforward as the code is already known to be non-disclosive but the process for users to get their code promoted into the shared area needs to be as simple as possible, preferably using the built in features of tools like GitHub (such as special branches, or releases).</p>
+</li>
+<li>
+<p><strong>Data must be able to flow between the components of the SDE automatically:</strong> This should be in a machine readable way without human intervention. There should be stops in the process, but these should be related to checks being run, and human approvals processes not simply having a download button you must press to get the data out. Instead, APIs or other machine readable approaches should be used to allow pipelines to be automated and prevent needless manual work.</p>
+</li>
+<li>
+<p><strong>All users (data scientists, data engineers, analysts, etc.) may need to productionise their code:</strong> This will involve code being run, and output, on a schedule, and then those outputs potentially flowing out to external users (such as in a dashboard). This cannot always rely on human output checkers (such as an hourly, or daily dashboard, showing COVID figures for each CCG in the UK), due to scale and fast turn around of outputs. There needs to be a way to sign-off a codebase, as trusted, so that it is known to produce safe outputs and for this to then be run with elevated permissions, potentially by-passing usual safe-guards for "untrusted" code, and outputting directly (such as in this case to a dashboard). The sign-off process will be the same as productionisation, and should allow finalised, signed-off code to be scheduled and run in a privileged space. It should then be difficult to change without further checks and sign-off (though potentially only of the changes rather than the whole codebase).</p>
+</li>
+<li>
+<p><strong>Data science work such as machine learning models, needs extra thought:</strong> This may require the creation of a model repository and feature store, both within and cross cutting the working silos of the SDE. Data science work may require different compute, including GPU compute clusters. These should not be dismissed out of hand due to cost, as when used properly, a GPU cluster will do data science calculations more efficiently (in terms of time and money) than CPU only clusters.  Such an approach might also need the ability to compile and install "code adjacent" tools, for example when using the Python library <a href="https://pystan.readthedocs.io/en/latest/" title="PyStan: A Python Interface to Stan, a package for Bayesian Inference">PyStan</a>, which under the hood is calling out to Stan.</p>
+</li>
+<li>
+<p><strong>Users may require access to a pipeline tool:</strong> This can include tools such as <a href="https://airflow.apache.org" title="Apache Airflow">airflow</a>, <a href="https://www.gnu.org/software/make/" title="GNU Make">make</a>, or <a href="https://dagster.io/blog/dagster-the-data-orchestrator" title="Dagster: The Data Orchestrator">Dagster</a> which enables steps in a process to be automated and scheduled.</p>
+</li>
+<li>
+<p><strong>Users will need access to a command line:</strong> Much of the tooling discussed above require command line access, hence the users need access to one, and potentially a unix environment.</p>
+</li>
+<li>
+<p><strong>Modern code development benefits greatly from using an integrated development environment (IDE):</strong> Tools such as <a href="https://code.visualstudio.com/" title="Visual Studio Code: Code Editing Redefined.">VSCode</a>, <a href="https://www.rstudio.com/tags/rstudio-ide/" title="RStudio IDE">RStudio</a> and <a href="https://www.jetbrains.com/pycharm/" title="The Python IDE for Professional Developers">PyCharm</a> make code development faster, less manual, and can lead to higher quality code. It is crucial users can also install relevant extensions, which may need to be hosted in the internal package repository of the SDE.</p>
+</li>
+<li>
+<p><strong>Changes and restrictions should be documented:</strong> Anything blocked, turned off, removed, altered, etc. from software being used within the SDE needs to be clearly explained to users through documentation about the SDE so that they can adapt their workflows or find alternative approaches to carrying out their tasks.</p>
+</li>
+<li>
+<p><strong>Users will also need access to a more open environment than an SDE</strong> with many of the tools above, more open access to the internet and less controls is required for work on open data that is not patient level or sensitive data. This is because, though a lot of health data work is on sensitive patient level data, often work is also done on publicly available, or aggregated, non-disclosive data. This open environment needs to have access to an identical package repository, code version control instance, compute etc. as the SDE so that code made in secure environment can be used in the more open environment and vice-versa.</p>
+</li>
+</ol>
+<h2 id="the-right-capability">The Right Capability</h2>
+<blockquote>
+<p><strong>In an ideal system...</strong></p>
+<p><strong>Senior leadership will:</strong></p>
+<ul>
+<li>Understand what is needed for RAP</li>
+<li>Promote and enable capability development</li>
+<li>Become comfortable managing RAP-enabled teams</li>
+</ul>
+<p><strong>Platforms colleagues will:</strong></p>
+<ul>
+<li>Help create platforms that are intuitive and support the application of necessary skills and techniques.</li>
+</ul>
+<p><strong>Analyst leaders (and RAP champions) will:</strong></p>
+<ul>
+<li>Understand what is needed for RAP</li>
+<li>Champion RAP through their own work</li>
+<li>Promote, enable and support capability development in their teams</li>
+</ul>
+<p><strong>Analyst will:</strong></p>
+<ul>
+<li>Understand what is needed for RAP</li>
+<li>Pursue development of the skills and techniques necessary for RAP</li>
+<li>Apply RAP in their work</li>
+</ul>
+</blockquote>
+<p>The <a href="https://analysisfunction.civilservice.gov.uk/policy-store/reproducible-analytical-pipelines-strategy/#section-9" title="Reproducible Analytical Pipelines (RAP) Strategy">second goal of the cross-government RAP strategy</a> states that analysts should have the capability to produce analysis in line with the RAP principles and are supported in doing so.</p>
+<h3 id="understanding-what-is-required">Understanding What is Required</h3>
+<p>As a necessary first step to developing the right capability, leaders (both at senior and more operational levels) and analysts should seek to understand RAP, particularly to understand what skills and techniques are needed. For leaders at all levels, this understanding will help them to understand the current capability position and also the scale of both the time and energy commitment needed for skills development and the potential benefits that that investment would bring. It will help leaders better understand how to manage analysts working under this framework and how they, as managers, can help deliver that change. An understanding of the specifics of RAP will also help during recruitment, enabling managers to prioritise the right kinds of skills and experience in their recruitment decisions.</p>
+<p>Analysts should of course also seek to understand what is required for their RAP journey, beginning with a skills audit. A framework should be used for this purpose, such as our <a href="../Levels_of_RAP/">Levels of RAP</a>, as this will help analysts to assess where they currently sit on this framework and what they should focus on next in terms of developing themselves and their pipelines. As noted on the <a href="../Levels_of_RAP/">levels of RAP page</a>, we are not suggesting that you should necessarily use our framework exactly, rather you may wish to adapt it to fit the needs and goals for your own organisation.</p>
+<p>Key aspects for both leaders and analysts to understand is that:</p>
+<ul>
+<li>RAP is not just for data scientists: the expectation is that anyone involved in the analysis of data should be pursuing RAP.</li>
+<li>RAP is not simply automation: it includes other aspects such as quality assurance, version control, documentation, dependency management and others.</li>
+<li>RAP is not an all-or-nothing exercise: even just applying some techniques will bring about benefit, and it will be easier to take a more iterative approach to development.</li>
+<li>Although RAP does require an initial investment in time and energy, that will be more than returned through the long term benefits it brings.</li>
+</ul>
+<p>Those responsible for developing and maintaining analytical platforms should support this process, understanding analysts' needs to discover what is required of platforms in order that they facilitate the application of RAP.</p>
+<h3 id="links-to-learning-resources">Links to Learning Resources</h3>
+<p>A number of learning pathways might be pursued to help develop the skills needed to apply the techniques outlined in our <a href="../Levels_of_RAP/">levels of RAP</a>. These are listed below.</p>
+<p><strong>Coding:</strong></p>
+<ul>
+<li><a href="https://learninghub.ons.gov.uk/local/catalogue/index.php">R and Python courses on the ONS learning hub</a></li>
+<li><a href="https://epirhandbook.com/en/index.html">R for applied epidemiology and public health</a></li>
+</ul>
+<p><strong>Version control:</strong></p>
+<ul>
+<li><a href="https://nhsdigital.github.io/rap-community-of-practice/training_resources/git/introduction-to-git/">Guide to version control with Git on the NHS RAP Community of Practice</a></li>
+</ul>
+<p>Whilst the links above provide resources to developing the capability to do RAP within an organisation, this can only be achieved if there is support and time provided for analysts to improve their skills, which will require a culture of learning to be established by team leaders.</p>
+<h2 id="the-right-culture">The Right Culture</h2>
+<blockquote>
+<p><strong>In an ideal system...</strong></p>
+<p><strong>Senior leadership will:</strong></p>
+<ul>
+<li>Endorse RAP, a culture of transparency and sharing.</li>
+<li>Promote RAP and monitor the progress towards the RAP strategy within the organisation.</li>
+</ul>
+<p><strong>Platforms colleagues will:</strong></p>
+<ul>
+<li>Get behind RAP, and make it easy to do on their platforms.</li>
+<li>Make platforms that allow the regular exchange of code between analysts, and to the wider world.</li>
+<li>Embrace a culture of transparency in their own work.</li>
+<li>Cyber Security and Information Governance must not be used as excuses for not meeting RAP standards. "Security through obscurity" is not sufficient as a security strategy.  </li>
+</ul>
+<p><strong>Analyst leaders (and RAP champions) will:</strong></p>
+<ul>
+<li>Encourage and support learning and working according to RAP, including adopting a culture of transparency</li>
+<li>Think across pieces of work, and try and identify areas where similar work is taking place</li>
+</ul>
+<p><strong>Analysts, Data Scientists, and Data Engineers will:</strong></p>
+<ul>
+<li>Carry out analysis and data pipelines work in line with RAP by default, including sharing and promoting their work and reusing the work of others.</li>
+</ul>
+</blockquote>
+<p>At its heart, RAP is about people - not pipelines.  It is about changing how people think, such as creating reusable components, thinking holistically and not just about your silo, and thinking about colleagues and how if you do a good job and share your code, you save another team time and effort.  RAP is not all or nothing and it is not one-size-fits all.  No team will be able to deliver RAP perfectly, no project will be perfectly RAP.  There will be some projects that are more RAP compliant than others and there will be other teams that are more mature at RAP than others. RAP is a process of continuous improvement, where we provide better health outcomes to the public by being open, learning from each other as part of a community, and create the time and space needed to improve our skills and capabilities.</p>
+<h3 id="create-and-support-the-time-needed-for-developing-skills">Create and Support the Time Needed for Developing Skills</h3>
+<p>The largest barrier often faced in developing capability for RAP is that of having the time for making those developments. It is therefore essential that leaders recognise the importance of RAP and try wherever possible to create the time and space needed for analysts to develop new skills. It is important to recognise that enabling this skills development, particularly capitalising on opportunities presented by quieter periods, will allow analytical people and systems to become more efficient and robust in the long term. Particularly in the health sector, this will pave the way for a more efficient and effective response to any emerging health threats and pandemics.</p>
+<p>Leaders should also be confident and not unduly risk-averse in allowing new ideas to be tried out, to enable analysts to apply the skills they are developing. By having a greater understanding of RAP, leaders will be able to manage their teams' RAP journeys, ensuring development takes place in a way that minimises any potential risk of doing so. A consequence of trying new ideas is that leaders should expect projects to take longer and factor this in.  However, they can justify to senior colleagues any prolonged timelines through the benefits that applying RAP will yield. The next project will be faster, any updates will be faster, and the outputs more trustworthy.</p>
+<p>Analysts need to seek out and take up opportunities for development, prioritising in the first instance those skills and techniques that will bring about the greatest benefit to their analytical pipelines. Usually those techniques concern better automation, documentation, quality assurance, and version control.  However, skills need to be continuously updated and whilst leaders should provide the time and space for skill development, analysts are responsible for continuously developing their own skills and identifying their own skills gaps.  People learn in different ways so analysts need to factor in their own learning style as part of this development process.</p>
+<h3 id="actively-support-and-build-a-community">Actively Support and Build a Community</h3>
+<p>RAP can be a big change in process and so it is important to provide effective networks of support. While individual analysts can learn and apply RAP in isolation, it is usually advised that this is done as a community instead. Doing so will both provide better support for individual analysts in the development of skills but also provide better business continuity: if an individual develops at a much faster rate than their team, there is a risk that others may not be able to pick up their work in the event they are unavailable or leave the organisation.</p>
+<p>You might also consider having nominated RAP champions. These are named individuals who champion RAP across the organisation, supporting others, and might be connected to wider groups such as the <a href="https://analysisfunction.civilservice.gov.uk/support/reproducible-analytical-pipelines/reproducible-analytical-pipeline-rap-champions/" title="Government Statistical Service (GSS) RAP Champion Network">Government Statistical Service (GSS) RAP Champion Network</a>. RAP Champions can set up seminars, have awards, ask questions, and make themselves available to answer questions. Colleagues need to know they can go to their local RAP champions or to the wider RAP community in your organisation (or beyond) for troubleshooting and advice.  </p>
+<p>By actively taking part in the wider RAP community, it is a lot easier to break down silos and build cross-cutting, multi-disciplinary connections with other teams that you can learn from.  By breaking down silos, sharing work and ideas, reusing the work of others, and actively contributing to the community, this will ultimately make any RAP outputs more robust, more efficient, and will positively impact the health of the patients for whom we do analysis.</p>
+<h3 id="be-open-and-transparent-by-default">Be Open and Transparent by Default</h3>
+<p>Publishing by default and only withholding code and results by exception form a core part of point 3 of the <a href="https://www.gov.uk/guidance/be-open-and-use-open-source" title="Guidance: Be Open and Use Open Source">Government's Technology Code of Practice (TCoP)</a>.  Openness is also referred to in point 9 of the <a href="https://www.gov.uk/government/publications/secure-data-environment-policy-guidelines/secure-data-environment-for-nhs-health-and-social-care-data-policy-guidelines#secure-data-environment-guidelines" title="Secure data environment for NHS health and social care data - policy guidelines">Secure data environment for NHS health and social care data policy guidelines</a> and the <a href="https://www.gov.uk/government/publications/data-saves-lives-reshaping-health-and-social-care-with-data" title="Data saves lives: reshaping health and social care with data">data saves lives NHS policy paper</a> repeatedly refers to open source as part of the transformation the NHS must go through to build a more efficient, transparent and integrated health and social care system. Therefore there is support from the top of government for more open and transparent ways of working.  However, there is still a need for analysts, leaders, platforms colleagues, and cyber security and IG colleagues to move away from a culture of relying on "security through obscurity".</p>
+<p>Whilst it may initially be uncomfortable, working in the open will benefit all parts of the organisation.  It will allow researchers to view, reuse, and adapt existing code and enhance shared understanding of how the datasets in these environments are used. This will enable users to easily reproduce previous analysis, which will save time and improve the consistency and accuracy of analytical findings.</p>
+<p>From a platforms perspective, no solution, whether open or closed, is guaranteed to be free from cyber attacks.  However, platforms that are open tend to be more secure in the long term because issues are identified quicker and there is a focus on ensuring that all processes and features are tested rigorously before they are made live because they will be open and the reliance of "security through obscurity" is no longer available.</p>
+<p>By being open and transparent, you are implicitly inviting others beyond your immediate colleagues to review your code, systems, and analysis. This "many eyes" approach will enable a breadth of views, opinions, skills, and experiences to contribute and benefit from your code and this will ultimately lead to better outcomes for patients, the public, and the NHS.</p>
+<!--DL: I think the section below would be better placed in "Why is it Important to Health".  We can then add another bullet point at the top note such as For more information on: What are the risks of NOT doing RAP, see [Why is RAP important to the UK health system"](Why_is_it_important_to_health.md "Why is RAP important to the UK health system") 
+-->
+
+<h2 id="what-are-the-risks-of-not-doing-rap">What are the risks of NOT doing RAP</h2>
+<blockquote>
+<p><strong>Note</strong></p>
+<ul>
+<li>senior leadership must understand not doing RAP will result in a business which is likely opaque, inefficient, brittle and hard to maintain.</li>
+<li>platforms colleagues must accept there is risk to the business for platforms not supporting RAP fully and work with the business to meet the platform recommendations made elsewhere in this document</li>
+<li>analyst leaders understood the risks of not doing RAP and impress these up on their colleagues, both above and below.</li>
+<li>analysts must embrace RAP, understanding that simply not changing has risks too.</li>
+</ul>
+</blockquote>
+<p>RAP can seem like a lot of work at first, especially to replace a bunch of processes which have more or less been working potentially for decades! However, in addition to the opportunity for benefits from RAP, there are also risks associated with not doing RAP.</p>
+<p><strong>A core risk is that opaque legacy processes often have unquantified risks</strong>: staff move, source data and processes change, and if the existing processes aren't understood and documented well, then there is a chance that the outputs generated aren't being produced exactly as we think. By breaking processes apart into manageable, understood and well-tested chunks, RAP greatly reduces this risk.</p>
+<p><strong>More generally, not embarking upon RAP means your analytical processes will be more brittle</strong>. This is more or less associated with using closed-source software or poorly designed Python/R programs and platforms, where you are "locked in" to certain ways of doing things: when that way of doing things is no longer available, then you've got a problem. Done properly, RAP not only describes the analytical/data process (using free, widely used and portable code) but also the exact libraries, compute, etc. use to run it - meaning the process should be able to run (and be reproduced) indefinitely (given supportive IT/platforms).</p>
+<p><strong>Not following RAP, especially the code version control aspect, leaves you more exposed to issues</strong> such as losing the code, the code getting damaged beyond repair, data centres going down, losing access to shared drives where processes are held, servers crashing or major cyber security incidents. If the process, and everything used to run it, is described in a git repo, you can recover from any of the above - recover the code, roll back some damaging change (and identify how it happened), reclone the code to your systems in case your local shared-drives fail and re set-up your entire pipeline including python libraries, and even computer cluster specs, given entire system failure or compromise.</p>
+<p><strong>Duplicate work, and not getting the full value out of your colleagues' work</strong> is a big risk of not doing RAP. Siloed, opaque processes are inevitably repeated by each team which needs to do the same task - this is wasteful of their time, but also means if one of those teams makes something really good, the rest of the business isn't benefiting from this. By promoting sharing, transparency and portability, RAP makes it easier to reap these benefits.</p>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+        </div>
+        
+      </main>
+      
+        <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  
+  <!-- Code for the next arrow from Material for MkDocs -->
+  <footer class="md-footer">
+     
+    <nav
+      class="md-footer__inner md-grid"
+      aria-label=""
+      
+    >
+       
+      <a
+        href=".."
+        class="md-footer__link md-footer__link--prev"
+        aria-label="Previous: Home"
+        rel="prev"
+      >
+        <div class="md-footer__button md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+        </div>
+        <div class="md-footer__title">
+          <div class="md-ellipsis">
+            <span class="md-footer__direction"> Previous </span>
+            Home
+          </div>
+        </div>
+      </a>
+        
+      <a
+        href="../Exceptions_to_open_sharing_of_RAP/"
+        class="md-footer__link md-footer__link--next"
+        aria-label="Next: Exceptions to open sharing of RAP"
+        rel="next"
+      >
+        <div class="md-footer__title">
+          <div class="md-ellipsis">
+            <span class="md-footer__direction"> Next </span>
+            Exceptions to open sharing of RAP
+          </div>
+        </div>
+        <div class="md-footer__button md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+        </div>
+      </a>
+      
+    </nav>
+    
+  </footer>
+  
+  <footer class="footer">
+    <div class="footer_left">
+      <a href="mailto:datascience@nhs.net"><p>Contact Us</p></a>
+      <p>
+        View the project on
+        <a href="https://github.com/nhsengland/Health-RAP-Playbook-Alpha"
+          >GitHub</a
+        >
+      </p>
+    </div>
+  
+    <div class="legal">
+      <div class="footer_left">
+      <p>&copy; 2023 Crown Copyright (NHS England)</p>
+      <p>All content is available under the
+          <a
+            href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+            >Open Government Licence v3.0</a
+          >, except where otherwise stated.
+        </p>    
+      </div>
+    </div>
+  </footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["search.share", "content.code.annotate", "content.tabs.link", "navigation.tabs", "navigation.indexes"], "search": "../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.b78d2936.min.js"></script>
+      
+    
+  </body>
+</html>

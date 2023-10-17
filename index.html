@@ -1,0 +1,539 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+        <link rel="next" href="How_do_I_do_rap_in_health/">
+      
+      <link rel="icon" href="images/favicon/favicon.ico">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.1.1">
+    
+    
+      
+        <title>Home - Health RAP Playbook - Alpha</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.402914a4.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.a0c5b2b5.min.css">
+      
+      
+  
+  
+    
+    
+  
+  
+  <style>:root{--md-admonition-icon--<type>:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14h-2V9h2m0 9h-2v-2h2M1 21h22L12 2 1 21Z"/></svg>');}</style>
+
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arial:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Arial";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="stylesheets/extra.css">
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#health-reproducible-analytical-pipelines-rap-playbook" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      <!--
+  Copyright (c) 2016-2023 Martin Donath <martin.donath@squidfunk.com>
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!-- Determine class according to configuration -->
+
+
+
+<!-- Header -->
+<header class="md-header" data-md-component="header">
+  <nav
+    class="md-header__inner md-grid"
+    aria-label=""
+  >
+
+<!-- Button to open drawer -->
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+
+    <!-- Link to home -->
+    <a
+      href="."
+      title="Health RAP Playbook - Alpha"
+      class="md-header__button md-logo-nhs"
+      aria-label="Health RAP Playbook - Alpha"
+      data-md-component="logo"
+    >
+      
+  <img src="images/logo/nhs-blue-on-white.jpg" alt="logo">
+
+    </a>
+
+    <!-- Header title -->
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Health RAP Playbook - Alpha
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Home
+            
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Color palette -->
+    
+
+    <!-- Site language selector -->
+    
+
+    <!-- Button to open search modal -->
+    
+
+    <!-- Repository information -->
+    
+      <div class="md-header__source">
+        <a href="https://github.com/nhsengland/Health-RAP-Playbook-Alpha" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Health RAP Playbook Alpha
+  </div>
+</a>
+      </div>
+    
+  </nav>
+
+  <!-- Navigation tabs (sticky) -->
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="." class="md-tabs__link md-tabs__link--active">
+        Home
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="Health RAP Playbook - Alpha" class="md-nav__button md-logo" aria-label="Health RAP Playbook - Alpha" data-md-component="logo">
+      
+  <img src="images/logo/nhs-blue-on-white.jpg" alt="logo">
+
+    </a>
+    Health RAP Playbook - Alpha
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/nhsengland/Health-RAP-Playbook-Alpha" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Health RAP Playbook Alpha
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" checked>
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index md-nav__link--active">
+          <a href=".">Home</a>
+          
+            <label for="__nav_1">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="true">
+        <label class="md-nav__title" for="__nav_1">
+          <span class="md-nav__icon md-icon"></span>
+          Home
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="How_do_I_do_rap_in_health/" class="md-nav__link">
+        How do I do RAP in health
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Exceptions_to_open_sharing_of_RAP/" class="md-nav__link">
+        Exceptions to open sharing of RAP
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Who_else_is_doing_it/" class="md-nav__link">
+        Who else is doing it
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Levels_of_RAP/" class="md-nav__link">
+        Levels of RAP maturity
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="health-reproducible-analytical-pipelines-rap-playbook">Health Reproducible Analytical Pipelines (RAP) Playbook</h1>
+<blockquote>
+<h1 id="alpha-please-note-that-this-website-is-currently-in-alpha-testing-as-such-you-may-encounter-bugs-errors-or-inaccuracies-during-your-visit-your-feedback-is-invaluable-in-helping-us-improve-this-site"><em>ALPHA Please note that this website is currently in alpha testing. As such, you may encounter bugs, errors, or inaccuracies during your visit. Your <a href="mailto:datascience@nhs.net">feedback</a> is invaluable in helping us improve this site.</em></h1>
+</blockquote>
+<p>This website documents processes, tools and technologies used in health when creating Reproducible Analytical Pipelines (RAP)</p>
+<blockquote>
+<p>It is intended to complement, not replace, existing UK Government and NHS guidance:</p>
+<ul>
+<li><strong>The cross-government big picture on RAP</strong>: <a href="https://analysisfunction.civilservice.gov.uk/policy-store/reproducible-analytical-pipelines-strategy/">Government Analysis Function RAP Strategy</a>  </li>
+<li><strong>The cross-government RAP community and guidance</strong>: <a href="https://analysisfunction.civilservice.gov.uk/support/reproducible-analytical-pipelines/">Government Analysis Function RAP Guidance</a>  </li>
+<li><strong>Guidance on how to set up a RAP squad and train others in RAP</strong>: <a href="https://nhsdigital.github.io/rap-community-of-practice/">NHS England RAP Community of Practice</a></li>
+<li><strong>Other RAP-related guidance</strong>:</li>
+<li><a href="https://best-practice-and-impact.github.io/qa-of-code-guidance/intro.html">Quality Assurance of Code for Analysis and Research (Duck book)</a></li>
+<li><a href="https://github.com/NHSDigital/software-engineering-quality-framework/tree/main">NHS Software Engineering Quality Framework</a></li>
+<li><a href="https://the-turing-way.netlify.app/index.html">Turing Way: A handbook to reproducible, ethical and collaborative data science</a></li>
+<li><strong>Why open source is important</strong>:</li>
+<li><a href="https://www.gov.uk/guidance/be-open-and-use-open-source">Cabinet office - Be open and use open source</a></li>
+<li><a href="https://transform.england.nhs.uk/key-tools-and-info/digital-playbooks/open-source-digital-playbook/">NHS open source digital playbook</a></li>
+</ul>
+</blockquote>
+<h1 id="who-this-is-for">Who this is for</h1>
+<ul>
+<li>Analysts and researchers using health data who want to adopt RAP  </li>
+<li>Analyst leaders in health who want to support or encourage RAP adoption  </li>
+<li>IT, cyber, and Information Governance professionals who want to ensure RAP is applied safely to health data  </li>
+<li>Members of the public who want to understand how their data is processed to provide insights into health and care</li>
+</ul>
+<h1 id="how-to-use-this-playbook">How to use this playbook</h1>
+<p>In our initial release we have focussed on guidance for those who have organisational buy-in and are looking for guidance and best practice on tools and processes:</p>
+<ul>
+<li><a href="How_do_I_do_rap_in_health/">How do I do RAP in health</a>  – deals with the difficulties of doing RAP when you have sensitive data</li>
+<li><a href="Who_else_is_doing_it/">Who else is doing it</a>  – links to testimony and resources from other health organisations who are doing RAP</li>
+<li><a href="Exceptions_to_open_sharing_of_RAP/">Exceptions to open sharing of RAP</a> – this discusses situations where it may be necessary not to publish your code </li>
+<li><a href="Levels_of_RAP/">Levels of RAP maturity</a> – this gives guidance on how to stage your RAP strategy to achieve high value gains early on in your journey</li>
+</ul>
+<h2 id="future-releases-will-contain">Future releases will contain:</h2>
+<p>Guidance for those less familiar with RAP. You will probably need to convince someone in your organisation (or yourself) that it’s a good thing to do:  </p>
+<ul>
+<li><strong>Why is it important to health</strong> – this covers the wider policy ask, and points to the drivers for this work.  </li>
+<li><strong>What is RAP in health</strong> – this covers why we need RAP in health analytics, key considerations, and misconceptions.  </li>
+</ul>
+<p>Guidance if you are one of the thousands of analysts working across hundreds of organisations in Trusts, PCNs, and ICBs:  </p>
+<ul>
+<li><strong>RAP for ICBs Trusts PCNs</strong> – bespoke resources and contacts for those working in smaller local teams</li>
+</ul>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+        </div>
+        
+      </main>
+      
+        <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  
+  <!-- Code for the next arrow from Material for MkDocs -->
+  <footer class="md-footer">
+     
+    <nav
+      class="md-footer__inner md-grid"
+      aria-label=""
+      
+    >
+        
+      <a
+        href="How_do_I_do_rap_in_health/"
+        class="md-footer__link md-footer__link--next"
+        aria-label="Next: How do I do RAP in health"
+        rel="next"
+      >
+        <div class="md-footer__title">
+          <div class="md-ellipsis">
+            <span class="md-footer__direction"> Next </span>
+            How do I do RAP in health
+          </div>
+        </div>
+        <div class="md-footer__button md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+        </div>
+      </a>
+      
+    </nav>
+    
+  </footer>
+  
+  <footer class="footer">
+    <div class="footer_left">
+      <a href="mailto:datascience@nhs.net"><p>Contact Us</p></a>
+      <p>
+        View the project on
+        <a href="https://github.com/nhsengland/Health-RAP-Playbook-Alpha"
+          >GitHub</a
+        >
+      </p>
+    </div>
+  
+    <div class="legal">
+      <div class="footer_left">
+      <p>&copy; 2023 Crown Copyright (NHS England)</p>
+      <p>All content is available under the
+          <a
+            href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+            >Open Government Licence v3.0</a
+          >, except where otherwise stated.
+        </p>    
+      </div>
+    </div>
+  </footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": ".", "features": ["search.share", "content.code.annotate", "content.tabs.link", "navigation.tabs", "navigation.indexes"], "search": "assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="assets/javascripts/bundle.b78d2936.min.js"></script>
+      
+    
+  </body>
+</html>
